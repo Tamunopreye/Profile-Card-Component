@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    background: url(../images/bg-pattern-bottom.svg) bottom -600px right -150px
+            no-repeat,
+        url(../images/bg-pattern-top.svg) top -500px left -200px no-repeat;
+    background-color: hsl(185, 75%, 39%);
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    max-width: 500px;
+    background-color: #fff;
+    margin: auto;
+    overflow: auto;
+    border-radius: 1rem;
+}
+
+.first {
+    width: 100%;
+}
+
+.profile {
+    text-align: center;
+}
+.profile img {
+    border-radius: 100%;
+    border: 5px solid white;
+    margin-top: -60px;
+}
+.profile h3,
+p {
+    margin: 1rem 0;
+}
+.profile p {
+    font-size: 1.2rem;
+    color: hsl(227, 10%, 46%);
+}
+.profile span {
+    font-weight: normal;
+    margin-left: 0.5rem;
+    color: hsl(227, 10%, 46%);
+}
+
+.stats {
+    display: flex;
+    gap: 3rem;
+    padding: 1rem 3rem;
+}
+.stats h4 {
+    font-size: 1.3rem;
+}
+.stats p {
+    font-size: 1rem;
+    color: hsl(227, 10%, 46%);
+}
